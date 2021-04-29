@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alttu</title>
+        <link rel=stylesheet href="style.css" type="text/css" media=screen>
+        <script src="./script.js" defer></script>
+        
+    </head>
+    <body>
+        <header>
+            <h1 id='title'>Alttu</h1>
+            <input type="radio" name="tab" id="tab1" value="tab1">
+            <input type="radio" name="tab" id="tab2" value="tab2" disabled>
+            <input type="radio" name="tab" id="tab3" value="tab3">
+            <input type="radio" name="tab" id="tab4" value="tab4">
+            <div class="tabs">
+                <label for="tab1">
+                    <div class="tab">
+                        <p>How it works</p>
+                    </div>
+                </label>
+                <!--<label for="tab2">
+                    <div class="tab">
+                        <p>Documentation</p>
+                    </div>
+                </label>-->
+                <label for="tab3">
+                    <div class="tab">
+                        <p>API</p>
+                    </div>
+                </label>
+                <label for="tab4">
+                    <div class="tab">
+                        <p>Prices</p>
+                    </div>
+                </label>
+            </div>
+            <div class="login">
+                <input type="button" name="button" id="login" value="Log In" disabled/> 
+            </div>
+        </header>
+        <main>
+            <section class="content" id="home">
+                <div class="info info-1">
+                    <h2>Pay to your sellers everywhere</h2>
+                    <p>A simple API to pay your sellers while compliance with PSD2 amd more is assured</p>
+                </div>
+                
+                <div class="freetrial">
+                    <input type="button" name="button" id="freetrial" value="Free Trial"/>
+                    <div class="info info-2">
+                        <h3>A platform inspired by today's platforms</h3>
+                        <p>Today’s platforms is demanding a better way to pay.
+                            Marketplaces, SaaS, On-demand and Dropshipping
+                            platforms are rapidly increasing but over 60% don’t
+                            meet PSD2 compliance.</p>
+                        <p>Alttu offers an compliance payment option that is
+                            based on online platforms way of working. We give
+                            owners the freedom to pay what they want today
+                            and pay over time.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="content content-2" id="howitworks">
+                <div class="section-name">
+                    <h2>¿How it works?</h2>
+                    <!--<p>A simple API to pay your sellers while compliance with PSD2 amd more is assured</p>-->
+                </div>
+                <div class="howitworks">
+                    <h3>Simple for you and your sellers</h3>
+                    <div class="list">
+                        <div class="circle"><p>1</p></div>
+                        <div class="info-3">
+                            <h4 class="eliminate-margin">Connect yourself to out API</h4>
+                            <p class="eliminate-margin">We provide you the best libraries to integrate with your platform</p>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="circle"><p>2</p></div>
+                        <div class="info-3">
+                            <h4 class="eliminate-margin">Let your sellers connect their accounts</h4>
+                            <p class="eliminate-margin">It will take only a few seconds</p>
+                        </div>
+                        
+                    </div>
+                    <div class="list">
+                        <div class="circle"><p>3</p></div>
+                        <div class="info-3">
+                            <h4 class="eliminate-margin">Customize when and how do you want to payout</h4>
+                            <p class="eliminate-margin">After sellers connection, you will have all transactional </p>
+                            <p class="eliminate-margin">information to make secured payments</p>
+                        </div>
+                    </div>
+                    <input type="button" name="button" id="documentation" value="Documentation" disabled/>
+                </div>
+            </section>
+            <section class="content content-3" id="api">
+                <div class="api">
+                    <div>
+                        <h3>A clean API that can be called with a few lines of code</h3>
+                    </div>
+                    <div>
+                        <img id="example-code" src="./img/carbon_example.png" alt="Code example"/>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="content content-2" id="prices">
+                <div class="section-name price-name">
+                    <h2>Prices</h2>
+                </div>
+                <div class="prices">
+                    <div class="card">
+                        <div class="card-name">
+                            <h3>SMALL TO BE BIG</h3>
+                            <h4>BASIC</h4>
+                        </div>
+                        <div class="icon">
+                            <img id="bug" src="img/bug.png" alt="Code"/>
+                        </div>
+                        <div class="card-info">
+                            <p>Up to 50 free transactions/month<br>
+                                Visualization of current balance<br>
+                                Rest of transactions: 1% + €0,25</p>
+                        </div>
+                        <input type="button" name="button" id="minifreetrial" value="Free Trial"/>
+                    </div>
+                    <div class="card">
+                        <div class="card-name">
+                            <h3>MORE CONTROL</h3>
+                            <h4>PREMIUM</h4>
+                        </div>
+                        <div class="icon">
+                            <img id="briefcase" src="img/briefcase.png" alt="Code"/>
+                        </div>
+                        <div class="card-info">
+                            <p>Up to 150 free transactions/month<br>
+                                Visualization of current balance<br>
+                                Rest of transactions: 1% + €0,23</p>
+                        </div>
+                        <input type="button" name="button" id="minifreetrial" value="Free Trial"/>
+                    </div>
+                    <div class="card">
+                        <div class="icon">
+                            <img id="code" src="img/code.png" alt="Code"/>
+                        </div>
+                        <div class="card-name tailored">
+                            <h4>TAILORED</h4>
+                        </div>
+                        <input type="button" name="button" id="letstalk" value="Let's talk"/>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
